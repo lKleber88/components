@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTÍCIAS GALÁTICO</title>
+    <link rel="stylesheet" href="./styles/card.css">
+    <script src="./src/Components/CardNews.js"  defer></script>
+    <script src="./src/Components/TituloDinamico.js" defer></script>
+    <script src="./src/Components/BarraTitulo.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        
+        <barra-titulo 
+            titulo1="Início"
+            titulo2="Vagas"
+            titulo3="Contato"
+
+        ></barra-titulo>   
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <card-news 
+            autor="Kleber Cavalcanti"
+            title="Darth Vader Contrata"
+            link-url = "www.google.com"
+            photo = "./assets/darth_vader_call.gif"
+            content="Procura-se desenvolvedores que saibam trabalhar com componentes."   
+        >
+        </card-news>
+        <br>
+        <br>
+        <card-news 
+            autor="Kleber Cavalcanti"
+            title="ÚLTIMA CHANCE..."
+            link-url = "www.google.com"
+            photo = "./assets/last_chance.gif"
+            content="Procura-se desenvolvedores que saibam trabalhar com componentes."   
+        >
+        </card-news>
+        <br>
+        <br>
+        <card-news 
+            autor="Kleber Cavalcanti"
+            title="NÃO ME DECEPCIONE"
+            link-url = "www.google.com"
+            photo = "./assets/L_SABER.gif"
+            content="Procura-se desenvolvedores que saibam trabalhar com componentes."   
+        >
+        </card-news>
+        <br>
+        <br>
+        <card-news 
+            autor="Kleber Cavalcanti"
+            title="MUITO BOM...MENOR APRENDIZ"
+            link-url = "www.google.com"
+            photo = "./assets/darthSeeYou.gif"
+            content="Procura-se desenvolvedores que saibam trabalhar com componentes."   
+        >
+        </card-news>
+
+</body>
+</html>
+
+
+
+
+<!-- Antes
+<div class="card">
+
+            <div class="card_left">
+                <span> By Kleber Cavalcanti</span>
+                <h1>Darth Vader Contrata Devs</h1>
+                <p>Procura-se desenvolvedores que saibam trabalhar com componentes.</p>
+
+            </div>
+
+            <div class="card_right">
+                <img src="./assets/darth vader call.gif" alt="">
+
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+
+    
+    <titulo-dinamico titulo="Novo título"></titulo-dinamico>
+    <titulo-dinamico titulo="Sou uma shadow"></titulo-dinamico>
+
+-->
